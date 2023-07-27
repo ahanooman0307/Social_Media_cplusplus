@@ -15,12 +15,6 @@
 class Post {
 public:
 
-   enum priority { LOW, MEDIUM, HIGH };
-   void like();
-   int getLikes();
-   void setPriority(priority priority_id);
-   
-
   /**
      Parameterized constructor.
      @param      : The title of the post (a string)
@@ -89,18 +83,12 @@ public:
 
     bool operator<(const Post &post)const; //function to compare username
     bool operator>(const Post &post) const; //function to compare username
-      
 
 private:
     std::string post_title_;
     std::string post_body_;
     time_t time_stamp_;
     std::string username_;
-    int likes_;
-    priority priority_id;
-   
-
-
 
 };//end Post
 

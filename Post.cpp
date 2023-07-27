@@ -8,16 +8,7 @@
 
 #include "Post.hpp"
 
-void Post::setPriority(priority priority_id){
-    this -> priority_id = priority_id;
-}
-void Post::like(){
-    likes_++;
-}
 
-int Post::getLikes(){
-    return likes_;
-}
 /**
    Parameterized constructor.
    @param      : The title of the post (a string)

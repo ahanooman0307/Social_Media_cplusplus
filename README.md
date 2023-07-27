@@ -1,5 +1,6 @@
-# Project6
+# Project5
 
-You may use the code that was distributed for project 5 as a starting point for this project.
+#### This is the starter code for CSCI 235, Fall 2022, Project 5.  
 
-The project specification is available on Blackboard.
+
+#### The project specification can be found on Blackboard.
